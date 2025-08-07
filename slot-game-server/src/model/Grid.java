@@ -1,7 +1,5 @@
 package model;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 public class Grid {
@@ -48,12 +46,12 @@ public class Grid {
     }
 
 
-    public void printGrid() {
+    /*public void printGrid() {
         for (int row = 0; row < rows; row++) {
             for (int col = 0; col < columns; col++) {
                 System.out.print(cells[row][col].getSymbol() + " ");
             }
             System.out.println();
         }
-    }
+    }*/
 }
